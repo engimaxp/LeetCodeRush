@@ -52,6 +52,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="买卖股票的最佳时机II.cs" />
     <Compile Include="从排序数组中删除重复项.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

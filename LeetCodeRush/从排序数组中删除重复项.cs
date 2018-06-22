@@ -13,7 +13,9 @@ namespace LeetCodeRush
         {
             return new Solution().RemoveDuplicates(arrays);
         }
-
+        /// <summary>
+        /// 快慢指针法
+        /// </summary>
         public class Solution
         {
             public int RemoveDuplicates(int[] nums)
