@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace LeetCodeRush
+namespace LeetCodeRush.Simple.ArrayTest
 {
     [TestFixture]
     public class 买卖股票的最佳时机II

@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace LeetCodeRush
+namespace LeetCodeRush.Simple.ArrayTest
 {
     [TestFixture]
     public class 两个数组的交集II

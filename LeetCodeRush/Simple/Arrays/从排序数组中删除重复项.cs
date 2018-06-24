@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace LeetCodeRush
+namespace LeetCodeRush.Simple.ArrayTest
 {
     [TestFixture]
     public class 从排序数组中删除重复项

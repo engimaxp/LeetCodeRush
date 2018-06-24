@@ -52,17 +52,27 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="旋转图像.cs" />
-    <Compile Include="有效的数独.cs" />
-    <Compile Include="两数之和.cs" />
-    <Compile Include="移动零.cs" />
-    <Compile Include="加一.cs" />
-    <Compile Include="两个数组的交集II.cs" />
-    <Compile Include="只出现一次的数字.cs" />
-    <Compile Include="存在重复.cs" />
-    <Compile Include="旋转数组.cs" />
-    <Compile Include="买卖股票的最佳时机II.cs" />
-    <Compile Include="从排序数组中删除重复项.cs" />
+    <Compile Include="Contest\Week90\亲密字符串.cs" />
+    <Compile Include="Simple\Strings\字符串转整数.cs" />
+    <Compile Include="Simple\Strings\最长公共前缀.cs" />
+    <Compile Include="Simple\Strings\数数并说.cs" />
+    <Compile Include="Simple\Strings\实现strStr.cs" />
+    <Compile Include="Simple\Strings\验证回文字符串.cs" />
+    <Compile Include="Simple\Strings\有效的字母异位词.cs" />
+    <Compile Include="Simple\Strings\字符串中的第一个唯一字符.cs" />
+    <Compile Include="Simple\Strings\颠倒整数.cs" />
+    <Compile Include="Simple\Strings\反转字符串.cs" />
+    <Compile Include="Simple\Arrays\旋转图像.cs" />
+    <Compile Include="Simple\Arrays\有效的数独.cs" />
+    <Compile Include="Simple\Arrays\两数之和.cs" />
+    <Compile Include="Simple\Arrays\移动零.cs" />
+    <Compile Include="Simple\Arrays\加一.cs" />
+    <Compile Include="Simple\Arrays\两个数组的交集II.cs" />
+    <Compile Include="Simple\Arrays\只出现一次的数字.cs" />
+    <Compile Include="Simple\Arrays\存在重复.cs" />
+    <Compile Include="Simple\Arrays\旋转数组.cs" />
+    <Compile Include="Simple\Arrays\买卖股票的最佳时机II.cs" />
+    <Compile Include="Simple\Arrays\从排序数组中删除重复项.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

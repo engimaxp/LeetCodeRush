@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace LeetCodeRush
+namespace LeetCodeRush.Simple.ArrayTest
 {
     [TestFixture]
     public class 有效的数独
