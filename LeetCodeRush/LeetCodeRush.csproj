@@ -54,6 +54,10 @@
   <ItemGroup>
     <Compile Include="Contest\Week90\亲密字符串.cs" />
     <Compile Include="Simple\Strings\字符串转整数.cs" />
+    <Compile Include="Simple\DP\打家劫舍.cs" />
+    <Compile Include="Simple\DP\最大子序和.cs" />
+    <Compile Include="Simple\DP\买卖股票的最佳时机.cs" />
+    <Compile Include="Simple\DP\爬楼梯.cs" />
     <Compile Include="Simple\Strings\最长公共前缀.cs" />
     <Compile Include="Simple\Strings\数数并说.cs" />
     <Compile Include="Simple\Strings\实现strStr.cs" />
