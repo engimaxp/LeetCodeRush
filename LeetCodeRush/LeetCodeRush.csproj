@@ -61,6 +61,8 @@
     <Compile Include="Simple\Strings\最长公共前缀.cs" />
     <Compile Include="Simple\Strings\数数并说.cs" />
     <Compile Include="Simple\Strings\实现strStr.cs" />
+    <Compile Include="Simple\SortAndSearch\合并两个有序数组.cs" />
+    <Compile Include="Simple\SortAndSearch\第一个错误的版本.cs" />
     <Compile Include="Simple\Strings\验证回文字符串.cs" />
     <Compile Include="Simple\Strings\有效的字母异位词.cs" />
     <Compile Include="Simple\Strings\字符串中的第一个唯一字符.cs" />
