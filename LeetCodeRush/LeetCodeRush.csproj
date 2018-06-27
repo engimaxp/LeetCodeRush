@@ -53,6 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contest\Week90\亲密字符串.cs" />
+    <Compile Include="Simple\LinkedList\环形链表.cs" />
+    <Compile Include="Simple\LinkedList\回文链表.cs" />
+    <Compile Include="Simple\LinkedList\合并两个有序链表.cs" />
+    <Compile Include="Simple\LinkedList\反转链表.cs" />
+    <Compile Include="Simple\LinkedList\删除链表的倒数第N个节点.cs" />
+    <Compile Include="Simple\LinkedList\删除链表中的节点.cs" />
     <Compile Include="Simple\Strings\字符串转整数.cs" />
     <Compile Include="Simple\DP\打家劫舍.cs" />
     <Compile Include="Simple\DP\最大子序和.cs" />
