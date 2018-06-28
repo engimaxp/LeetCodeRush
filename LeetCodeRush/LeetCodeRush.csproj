@@ -53,6 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contest\Week90\亲密字符串.cs" />
+    <Compile Include="Simple\Tree\将有序数组转换为二叉搜索树.cs" />
+    <Compile Include="Simple\Tree\二叉树的层次遍历.cs" />
+    <Compile Include="Simple\Tree\对称二叉树.cs" />
+    <Compile Include="Simple\Tree\二叉树的最大深度.cs" />
+    <Compile Include="Simple\Tree\验证二叉搜索树.cs" />
     <Compile Include="Simple\LinkedList\环形链表.cs" />
     <Compile Include="Simple\LinkedList\回文链表.cs" />
     <Compile Include="Simple\LinkedList\合并两个有序链表.cs" />
