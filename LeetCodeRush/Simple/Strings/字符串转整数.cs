@@ -111,15 +111,15 @@ namespace LeetCodeRush.Simple.StringTest
                 }
                 if (c[0] == '-' && c.Length == 11)
                 {
-                    if (compareLessThan((-2147483648).ToString().ToCharArray(), c)) return int.MinValue;
+                    if (CompareLessThan((-2147483648).ToString().ToCharArray(), c)) return int.MinValue;
                 }
                 else if (c.Length == 10)
                 {
-                    if (compareLessThan(2147483647.ToString().ToCharArray(), c)) return int.MaxValue;
+                    if (CompareLessThan(2147483647.ToString().ToCharArray(), c)) return int.MaxValue;
                 }
                 return Convert.ToInt32(new string(c));
             }
-            public bool compareLessThan(char[] a, char[] b)
+            public bool CompareLessThan(char[] a, char[] b)
             {
                 for (int i = 0; i < a.Length; i++)
                 {

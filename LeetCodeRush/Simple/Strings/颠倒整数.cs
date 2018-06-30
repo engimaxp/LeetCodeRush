@@ -66,7 +66,7 @@ namespace LeetCodeRush.Simple.StringTest
                     else
                     {
                         zeroDetect = true;
-                        swaq(i, j, array);
+                        Swaq(i, j, array);
                         i++;
                         j--;
                     }
@@ -88,16 +88,16 @@ namespace LeetCodeRush.Simple.StringTest
 
                 if (c[0] == '-' && c.Length == 11)
                 {
-                    if (compareLessThan((-2147483648).ToString().ToCharArray(), c)) return 0;
+                    if (CompareLessThan((-2147483648).ToString().ToCharArray(), c)) return 0;
                 }
                 else if(c.Length == 10)
                 {
-                    if (compareLessThan(2147483647.ToString().ToCharArray(), c)) return 0;
+                    if (CompareLessThan(2147483647.ToString().ToCharArray(), c)) return 0;
                 }
                 return Convert.ToInt32(new string(c));
             }
 
-            public bool compareLessThan(char[] a, char[] b)
+            public bool CompareLessThan(char[] a, char[] b)
             {
                 for (int i = 0; i < a.Length; i++)
                 {
@@ -115,7 +115,7 @@ namespace LeetCodeRush.Simple.StringTest
                 return false;
             }
 
-            public void swaq(int i, int j,char[] c)
+            public void Swaq(int i, int j,char[] c)
             {
                 var temp = c[i];
                 c[i] = c[j];

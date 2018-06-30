@@ -10,7 +10,7 @@ namespace LeetCodeRush.Simple.LinkedList
         {
             var strs = new[] {1,2,3,4,5};
             var result = new Solution(strs);
-            result.head = result.RemoveNthFromEnd(result.head,2);
+            result.Head = result.RemoveNthFromEnd(result.Head,2);
             Assert.AreEqual(new[] { 1,2,3,5 }, result.ToArray());
         }
         [Test]
@@ -18,7 +18,7 @@ namespace LeetCodeRush.Simple.LinkedList
         {
             var strs = new[] { 1 };
             var result = new Solution(strs);
-            result.head = result.RemoveNthFromEnd(result.head,1);
+            result.Head = result.RemoveNthFromEnd(result.Head,1);
             Assert.AreEqual(new int[0], result.ToArray());
         }
         [Test]
@@ -26,7 +26,7 @@ namespace LeetCodeRush.Simple.LinkedList
         {
             var strs = new[] { 1,2 };
             var result = new Solution(strs);
-            result.head = result.RemoveNthFromEnd(result.head, 1);
+            result.Head = result.RemoveNthFromEnd(result.Head, 1);
             Assert.AreEqual(new[] { 1 }, result.ToArray());
         }
         public class ListNode {
@@ -53,9 +53,9 @@ namespace LeetCodeRush.Simple.LinkedList
                 
             }
 
-            public ListNode getNum(int n)
+            public ListNode GetNum(int n)
             {
-                ListNode currentNode = head;
+                ListNode currentNode = Head;
                 for (int i = 0; i < length; i++)
                 {
                     if (currentNode.val == n) return currentNode;
@@ -64,7 +64,7 @@ namespace LeetCodeRush.Simple.LinkedList
 
                 return null;
             }
-            public ListNode head { get; set; }
+            public ListNode Head { get; set; }
             private int length = 0;
             public Solution(int[] array)
             {
@@ -72,17 +72,17 @@ namespace LeetCodeRush.Simple.LinkedList
                 length = array.Length;
                 if (length == 1)
                 {
-                    head = new ListNode(array[0]);
+                    Head = new ListNode(array[0]);
                     return;
                 }
                 for (int i = array.Length-1; i >=0; i--)
                 {
-                    head = new ListNode(array[i]);
+                    Head = new ListNode(array[i]);
                     if (currentNode != null)
                     {
-                        head.next = currentNode;
+                        Head.next = currentNode;
                     }
-                    currentNode = head;
+                    currentNode = Head;
                 }
             }
 
@@ -91,7 +91,7 @@ namespace LeetCodeRush.Simple.LinkedList
             {
                 var array = new int[length];
 
-                ListNode currentNode = head;
+                ListNode currentNode = Head;
                 for (int i = 0; i < length; i++)
                 {
                     array[i] = currentNode.val;
@@ -107,8 +107,10 @@ namespace LeetCodeRush.Simple.LinkedList
                 {
                     return head;
                 }
-                ListNode myHead = new ListNode(0);
-                myHead.next = head;
+                ListNode myHead = new ListNode(0)
+                {
+                    next = head
+                };
 
                 ListNode f = myHead;
                 ListNode s = myHead;
