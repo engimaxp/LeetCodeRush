@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace LeetCodeRush.Simple.StringTest
+namespace LeetCodeRush.Contest.Week90
 {
     [TestFixture]
     public class 亲密字符串

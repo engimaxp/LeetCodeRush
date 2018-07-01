@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contest\Week90\亲密字符串.cs" />
+    <Compile Include="Contest\Week91\二叉树中所有距离为K的结点.cs" />
+    <Compile Include="Contest\Week91\柠檬水找零.cs" />
     <Compile Include="Simple\Design\最小栈.cs" />
     <Compile Include="Simple\Design\Shuffle_an_Array.cs" />
     <Compile Include="Simple\Math\罗马数字转整数.cs" />
