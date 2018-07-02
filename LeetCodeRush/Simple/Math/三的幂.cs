@@ -24,7 +24,7 @@ namespace LeetCodeRush.Simple.Calculate
             Assert.AreEqual(false, new Solution().IsPowerOfThree(0));
             Assert.AreEqual(true, new Solution().IsPowerOfThree(9));
             Assert.AreEqual(false, new Solution().IsPowerOfThree(45));
-            Assert.AreEqual(true, new Solution().IsPowerOfThree(-3));
+            Assert.AreEqual(false, new Solution().IsPowerOfThree(-3));
         }
     }
 }

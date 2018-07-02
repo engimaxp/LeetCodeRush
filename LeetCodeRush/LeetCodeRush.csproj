@@ -61,6 +61,12 @@
     <Compile Include="Simple\Math\三的幂.cs" />
     <Compile Include="Simple\Math\计数质数.cs" />
     <Compile Include="Simple\Math\Fizz_Buzz.cs" />
+    <Compile Include="Simple\Misc\缺失数字.cs" />
+    <Compile Include="Simple\Misc\有效的括号.cs" />
+    <Compile Include="Simple\Misc\帕斯卡三角形.cs" />
+    <Compile Include="Simple\Misc\颠倒二进制位.cs" />
+    <Compile Include="Simple\Misc\汉明距离.cs" />
+    <Compile Include="Simple\Misc\位1的个数.cs" />
     <Compile Include="Simple\Tree\将有序数组转换为二叉搜索树.cs" />
     <Compile Include="Simple\Tree\二叉树的层次遍历.cs" />
     <Compile Include="Simple\Tree\对称二叉树.cs" />
