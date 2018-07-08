@@ -55,6 +55,7 @@
     <Compile Include="Contest\Week90\亲密字符串.cs" />
     <Compile Include="Contest\Week91\二叉树中所有距离为K的结点.cs" />
     <Compile Include="Contest\Week91\柠檬水找零.cs" />
+    <Compile Include="Contest\Week92\转置矩阵.cs" />
     <Compile Include="Intermediate\Arrays\字谜分组.cs" />
     <Compile Include="Intermediate\Arrays\递增的三元子序列.cs" />
     <Compile Include="Intermediate\Arrays\最长回文子串.cs" />
