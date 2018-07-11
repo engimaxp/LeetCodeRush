@@ -65,6 +65,9 @@
     <Compile Include="Intermediate\LinkedList\相交链表.cs" />
     <Compile Include="Intermediate\LinkedList\奇偶链表.cs" />
     <Compile Include="Intermediate\LinkedList\两数相加.cs" />
+    <Compile Include="Intermediate\Tree\从前序与中序遍历序列构造二叉树.cs" />
+    <Compile Include="Intermediate\Tree\二叉树的锯齿形层次遍历.cs" />
+    <Compile Include="Intermediate\Tree\中序遍历二叉树.cs" />
     <Compile Include="Simple\Design\最小栈.cs" />
     <Compile Include="Simple\Design\Shuffle_an_Array.cs" />
     <Compile Include="Simple\Math\罗马数字转整数.cs" />
