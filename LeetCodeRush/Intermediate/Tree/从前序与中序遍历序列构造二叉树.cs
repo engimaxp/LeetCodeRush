@@ -27,18 +27,18 @@ namespace LeetCodeRush.Simple.Tree
             public static TreeNode ConstructFromArray(int?[] array)
             {
                 var root = new TreeNode(0);
-                return create_tree(root, array, 0);
+                return Create_tree(root, array, 0);
             }
 
-            private static TreeNode create_tree(TreeNode node, int?[] a, int index)
+            private static TreeNode Create_tree(TreeNode node, int?[] a, int index)
             {
                 if (index >= a.Length)
                     return null;
                 if (a[index].HasValue)
                 {
                     node = new TreeNode(a[index].Value);
-                    node.left = create_tree(node.left, a, 2 * index + 1);
-                    node.right = create_tree(node.right, a, 2 * index + 2);
+                    node.left = Create_tree(node.left, a, 2 * index + 1);
+                    node.right = Create_tree(node.right, a, 2 * index + 2);
                 }
                 else
                 {

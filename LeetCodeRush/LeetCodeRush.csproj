@@ -62,6 +62,9 @@
     <Compile Include="Intermediate\Arrays\无重复字符的最长子串.cs" />
     <Compile Include="Intermediate\Arrays\矩阵置零.cs" />
     <Compile Include="Intermediate\Arrays\三数之和.cs" />
+    <Compile Include="Intermediate\back\全排列.cs" />
+    <Compile Include="Intermediate\back\生成括号.cs" />
+    <Compile Include="Intermediate\back\电话号码的字母组合.cs" />
     <Compile Include="Intermediate\LinkedList\相交链表.cs" />
     <Compile Include="Intermediate\LinkedList\奇偶链表.cs" />
     <Compile Include="Intermediate\LinkedList\两数相加.cs" />

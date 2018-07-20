@@ -20,18 +20,18 @@ namespace LeetCodeRush.Simple.Tree
             public static TreeNode ConstructFromArray(int?[] array)
             {
                 var root = new TreeNode(0);
-                return create_tree(root, array, 0);
+                return Create_tree(root, array, 0);
             }
 
-            private static TreeNode create_tree(TreeNode node, int?[] a, int index)
+            private static TreeNode Create_tree(TreeNode node, int?[] a, int index)
             {
                 if (index >= a.Length)
                     return null;
                 if (a[index].HasValue)
                 {
                     node = new TreeNode(a[index].Value);
-                    node.left = create_tree(node.left, a, 2 * index + 1);
-                    node.right = create_tree(node.right, a, 2 * index + 2);
+                    node.left = Create_tree(node.left, a, 2 * index + 1);
+                    node.right = Create_tree(node.right, a, 2 * index + 2);
                 }
                 else
                 {
@@ -57,21 +57,21 @@ namespace LeetCodeRush.Simple.Tree
                         if (grid[i,j] == '1')
                         {
                             ++count;
-                            dfs(grid, i, j);
+                            Dfs(grid, i, j);
                         }
                     }// for
                 }// for
                 return count;
             }
-            public void dfs(char[,] grid, int x, int y)
+            public void Dfs(char[,] grid, int x, int y)
             {
                 if ((x < 0) || (y < 0) || (x >= grid.GetLength(0)) || (y >= grid.GetLength(1)) || grid[x,y] == '0')
                     return;
                 grid[x,y] = '0';
-                dfs(grid, x - 1, y);
-                dfs(grid, x, y - 1);
-                dfs(grid, x + 1, y);
-                dfs(grid, x, y + 1);
+                Dfs(grid, x - 1, y);
+                Dfs(grid, x, y - 1);
+                Dfs(grid, x + 1, y);
+                Dfs(grid, x, y + 1);
             }
 
         }
