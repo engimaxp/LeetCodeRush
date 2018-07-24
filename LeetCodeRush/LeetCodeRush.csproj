@@ -67,6 +67,10 @@
     <Compile Include="Intermediate\back\全排列.cs" />
     <Compile Include="Intermediate\back\生成括号.cs" />
     <Compile Include="Intermediate\back\电话号码的字母组合.cs" />
+    <Compile Include="Intermediate\DP\最长递增子序列.cs" />
+    <Compile Include="Intermediate\DP\零钱兑换.cs" />
+    <Compile Include="Intermediate\DP\不同路径.cs" />
+    <Compile Include="Intermediate\DP\跳跃游戏.cs" />
     <Compile Include="Intermediate\LinkedList\相交链表.cs" />
     <Compile Include="Intermediate\LinkedList\奇偶链表.cs" />
     <Compile Include="Intermediate\LinkedList\两数相加.cs" />
