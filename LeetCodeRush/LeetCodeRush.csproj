@@ -67,6 +67,8 @@
     <Compile Include="Intermediate\back\全排列.cs" />
     <Compile Include="Intermediate\back\生成括号.cs" />
     <Compile Include="Intermediate\back\电话号码的字母组合.cs" />
+    <Compile Include="Intermediate\Design\二叉树的序列化与反序列化.cs" />
+    <Compile Include="Intermediate\Design\插入删除获取随机数.cs" />
     <Compile Include="Intermediate\DP\最长递增子序列.cs" />
     <Compile Include="Intermediate\DP\零钱兑换.cs" />
     <Compile Include="Intermediate\DP\不同路径.cs" />
