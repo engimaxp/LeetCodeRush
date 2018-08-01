@@ -10,11 +10,11 @@ namespace LeetCodeRush.Intermediate.Design
 
         public class RandomizedSet
         {
-            private List<int> list { get; set; } = new List<int>();
+            private List<int> List { get; set; } = new List<int>();
 
-            private Dictionary<int,int> numsMap { get; set; } = new Dictionary<int, int>();
+            private Dictionary<int,int> NumsMap { get; set; } = new Dictionary<int, int>();
 
-            private Random random;
+            private readonly Random random;
             /** Initialize your data structure here. */
             public RandomizedSet()
             {
@@ -24,29 +24,29 @@ namespace LeetCodeRush.Intermediate.Design
             /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
             public bool Insert(int val)
             {
-                if (numsMap.ContainsKey(val)) return false;
-                list.Add(val);
-                numsMap[val] = list.Count-1;
+                if (NumsMap.ContainsKey(val)) return false;
+                List.Add(val);
+                NumsMap[val] = List.Count-1;
                 return true;
             }
 
             /** Removes a value from the set. Returns true if the set contained the specified element. */
             public bool Remove(int val)
             {
-                if (!numsMap.ContainsKey(val)) return false;
-                var last = list[list.Count - 1];
-                list[list.Count - 1] = list[numsMap[val]];
-                list[numsMap[val]] = last;
-                numsMap[last] = numsMap[val];
-                list.RemoveAt(list.Count-1);
-                numsMap.Remove(val);
+                if (!NumsMap.ContainsKey(val)) return false;
+                var last = List[List.Count - 1];
+                List[List.Count - 1] = List[NumsMap[val]];
+                List[NumsMap[val]] = last;
+                NumsMap[last] = NumsMap[val];
+                List.RemoveAt(List.Count-1);
+                NumsMap.Remove(val);
                 return true;
             }
 
             /** Get a random element from the set. */
             public int GetRandom()
             {
-                return list[random.Next(0, list.Count)];
+                return List[random.Next(0, List.Count)];
             }
         }
 

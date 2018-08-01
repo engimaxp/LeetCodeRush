@@ -76,6 +76,9 @@
     <Compile Include="Intermediate\LinkedList\相交链表.cs" />
     <Compile Include="Intermediate\LinkedList\奇偶链表.cs" />
     <Compile Include="Intermediate\LinkedList\两数相加.cs" />
+    <Compile Include="Intermediate\SortSearch\数组中的第K个最大元素.cs" />
+    <Compile Include="Intermediate\SortSearch\前K个高频元素.cs" />
+    <Compile Include="Intermediate\SortSearch\分类颜色.cs" />
     <Compile Include="Intermediate\Tree\岛屿的个数.cs" />
     <Compile Include="Intermediate\Tree\二叉搜索树中第K小的元素.cs" />
     <Compile Include="Intermediate\Tree\每个节点的右向指针.cs" />

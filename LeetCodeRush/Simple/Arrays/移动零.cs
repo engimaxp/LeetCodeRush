@@ -25,7 +25,7 @@ namespace LeetCodeRush.Simple.ArrayTest
         
         public class Solution
         {
-            public void swap(int i, int j, int[] array)
+            public void Swap(int i, int j, int[] array)
             {
                 var temp = array[i];
                 array[i] = array[j];
@@ -44,7 +44,7 @@ namespace LeetCodeRush.Simple.ArrayTest
                 {
                     if (nums[right] != 0)
                     {
-                        swap(left, right, nums);
+                        Swap(left, right, nums);
                         left++;
                     }
                     right++;
