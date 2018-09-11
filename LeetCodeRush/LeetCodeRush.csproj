@@ -52,6 +52,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advance\Arrays\盛最多水的容器.cs" />
+    <Compile Include="Advance\Arrays\四数相加II.cs" />
+    <Compile Include="Advance\Arrays\螺旋矩阵.cs" />
+    <Compile Include="Advance\Arrays\ProductofArrayExceptSelf.cs" />
     <Compile Include="Contest\Week90\亲密字符串.cs" />
     <Compile Include="Contest\Week91\二叉树中所有距离为K的结点.cs" />
     <Compile Include="Contest\Week91\柠檬水找零.cs" />
