@@ -52,6 +52,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advance\Arrays\寻找重复数.cs" />
+    <Compile Include="Advance\Arrays\最长连续序列.cs" />
+    <Compile Include="Advance\Arrays\第一个缺失的正数.cs" />
+    <Compile Include="Advance\Arrays\生命游戏.cs" />
     <Compile Include="Advance\Arrays\盛最多水的容器.cs" />
     <Compile Include="Advance\Arrays\四数相加II.cs" />
     <Compile Include="Advance\Arrays\螺旋矩阵.cs" />
