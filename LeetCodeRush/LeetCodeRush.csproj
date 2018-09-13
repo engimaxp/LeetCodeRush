@@ -52,6 +52,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advance\Arrays\最小窗口子字符串.cs" />
+    <Compile Include="Advance\Arrays\SlidingWindowMaximum.cs" />
+    <Compile Include="Advance\Arrays\基本计算器II.cs" />
     <Compile Include="Advance\Arrays\寻找重复数.cs" />
     <Compile Include="Advance\Arrays\最长连续序列.cs" />
     <Compile Include="Advance\Arrays\第一个缺失的正数.cs" />
